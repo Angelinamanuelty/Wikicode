@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/javascript.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>WikiCode - JavaScript</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="indexlog.html">WikiCode</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="indexlog.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="indexlog.html#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="indexlog.html#languages">Languages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="logoutSuccess.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="features">
+        <img src="../img/Unofficial_JavaScript_logo_2.svg" alt="javascript Logo" style="display: block; margin: 10px auto; width: 150px;">
+        <h2>What is JavaScript?</h2>
+        <p style="color: white;">JavaScript is a high-level, interpreted programming language that is primarily used for building interactive and dynamic web pages.</p>
+        <br>
+        <div class="features-row">
+            <div class="feature-box">
+                <h3>Client-Side Scripting</h3>
+                <p>JavaScript is mainly used for client-side scripting, which means it runs directly in the user's browser, allowing for interactive web pages without needing to reload the page.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Versatility</h3>
+                <p>JavaScript can be used both on the client-side (browser) and server-side (via Node.js) to build a wide variety of applications, from simple scripts to complex web servers.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Asynchronous Programming</h3>
+                <p>JavaScript supports asynchronous programming using promises, async/await, and callbacks, allowing for efficient handling of tasks like fetching data without blocking the main thread.</p>
+            </div>
+        </div>
+    </section>
+    <section id="history">
+        <h2>History of JavaScript</h2>
+        <p>JavaScript was created by <strong>Brendan Eich</strong> in 1995 while working at Netscape Communications. Initially named Mocha, it was later renamed to JavaScript to capitalize on the popularity of Java, despite having little in common with it.</p>
+        <p>JavaScript was designed to enable dynamic, interactive web pages and has since become the de facto language for client-side web development. Over the years, JavaScript has evolved significantly, with major updates like ECMAScript 6 (ES6) introducing features such as classes, modules, and arrow functions.</p>
+        <p>Today, JavaScript is one of the most widely used programming languages, and it is supported by all major web browsers. It plays a central role in web development, with modern frameworks and libraries such as <strong>React</strong>, <strong>Vue</strong>, and <strong>Angular</strong> built using JavaScript.</p>
+    </section>
+    <hr>
+    <section id="uses">
+        <h2>Uses of JavaScript</h2>
+        <p>JavaScript is an essential part of web development and has many applications across various domains. Some of its most popular uses include:</p>
+        <div class="uses-row" id="uses-text">
+            <div class="uses-box">
+                <h3>Web Development</h3>
+                <p>JavaScript is primarily used for creating interactive websites. Libraries and frameworks like <strong>React</strong>, <strong>Vue</strong>, and <strong>Angular</strong> allow developers to build responsive, dynamic web applications.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Server-Side Programming</h3>
+                <p>With the advent of <strong>Node.js</strong>, JavaScript can now be used for backend development, enabling full-stack development using a single language.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Mobile App Development</h3>
+                <p>JavaScript can be used to build mobile applications using frameworks like <strong>React Native</strong> and <strong>Ionic</strong>.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Game Development</h3>
+                <p>JavaScript can also be used in game development with libraries like <strong>Phaser</strong> and <strong>Three.js</strong> for creating 2D and 3D games that run in the browser.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Automation</h3>
+                <p>JavaScript is often used to automate tasks in the browser or server-side processes. With tools like <strong>Gulp</strong> and <strong>Grunt</strong>, developers can automate repetitive tasks such as minification and file compilation.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Data Visualization</h3>
+                <p>JavaScript is used in data visualization libraries like <strong>D3.js</strong> and <strong>Chart.js</strong> to create interactive charts and graphs on websites.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-tutorial" class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <h2>Introduction to JavaScript Video</h2>
+            <p>Watch this short introduction to learn more about JavaScript in real-world applications:</p>
+            <div class="ratio ratio-16x9 mt-3">
+                <video controls class="img-fluid">
+                    <source src="../videos/js.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p class="mt-3 small text-muted">Video credit: <a href="https://www.youtube.com/watch?v=DHjqpvDnNGE" target="_blank" class="text-info">Fireship</a></p>
+        </div>
+    </section>
+
+    <section id="hello-world">
+        <h2>JavaScript "Hello, World!" Syntax</h2>
+        <p>Here's the simplest JavaScript program that prints "Hello, World!" to the console:</p>
+        <div class="code-box">
+            <button class="button" onclick="copyCode()">Copy</button>
+            <pre>
+<code id="code">console.log("Hello, World!");</code>
+            </pre>
+        </div>
+        <p>This line of code prints "Hello, World!" to the console, which is often the first program you write when learning a new language. The <code>console.log()</code> function is used to output text to the browser's console in JavaScript.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 WikiCode. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/code.js"></script>
+
+</body>
+
+</html>

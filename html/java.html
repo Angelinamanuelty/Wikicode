@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/java.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>WikiCode - Java</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="indexlog.html">WikiCode</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="indexlog.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="indexlog.html#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="indexlog.html#languages">Languages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="logoutSuccess.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="features">
+        <img src="../img/Java-Logo.svg" alt="java Logo" style="display: block; margin: 10px auto; width: 150px;">
+        <h2>What is Java?</h2>
+        <p style="color: white;">Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle). It is designed to be platform-independent, meaning code written in Java can run on any device that supports the Java Virtual Machine (JVM).</p>
+        <br>
+        <div class="features-row">
+            <div class="feature-box">
+                <h3>Object-Oriented</h3>
+                <p>Java follows the principles of object-oriented programming (OOP), making it easier to structure programs using classes, objects, inheritance, polymorphism, and encapsulation.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Platform-Independent</h3>
+                <p>Java uses the "Write Once, Run Anywhere" (WORA) principle, meaning compiled Java programs can run on any platform that has the Java Virtual Machine (JVM).</p>
+            </div>
+            <div class="feature-box">
+                <h3>Automatic Memory Management</h3>
+                <p>Java includes automatic garbage collection, which helps manage memory allocation and deallocation, reducing the risk of memory leaks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="history">
+        <h2>History of Java</h2>
+        <p>Java was created by <strong>James Gosling</strong> and his team at Sun Microsystems in the early 1990s. Originally designed for interactive television, Java gained popularity for web development, enterprise applications, and mobile applications.</p>
+        <p>With continuous updates and improvements, Java remains one of the most widely used programming languages, especially in enterprise solutions, Android development, and cloud computing.</p>
+    </section>
+    <hr>
+
+    <section id="uses">
+        <h2>Uses of Java</h2>
+        <p>Java is widely used across multiple industries due to its reliability, portability, and security. Some of its main applications include:</p>
+        <div class="uses-row" id="uses-text">
+            <div class="uses-box">
+                <h3>Web Development</h3>
+                <p>Java is used in web applications and backend development, with frameworks like Spring and Java EE supporting enterprise-scale applications.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Android App Development</h3>
+                <p>Java is one of the primary languages for developing Android applications using the Android SDK.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Enterprise Applications</h3>
+                <p>Many large-scale enterprise applications rely on Java for its scalability and robustness.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Financial Services</h3>
+                <p>Java is widely used in banking and financial systems, where security and high performance are critical.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Cloud Computing</h3>
+                <p>Java is a popular choice for cloud-based applications due to its scalability and cross-platform capabilities.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Embedded Systems</h3>
+                <p>Java is also used in embedded systems, such as smart cards and IoT devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-tutorial" class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <h2>Introduction to Java Video</h2>
+            <p>Watch this short introduction to learn more about Java in real-world applications:</p>
+            <div class="ratio ratio-16x9 mt-3">
+                <video controls class="img-fluid">
+                    <source src="../videos/java.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p class="mt-3 small text-muted">Video credit: <a href="https://www.youtube.com/watch?v=l9AzO1FMgM8" target="_blank" class="text-info">Fireship</a></p>
+        </div>
+    </section>
+
+    <section id="hello-world">
+        <h2>Java "Hello, World!" Syntax</h2>
+        <p>Here's a simple Java program that prints "Hello, World!" to the console:</p>
+        <div class="code-box">
+            <button class="button" onclick="copyCode()">Copy</button>
+            <pre>
+<code id="code">public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}</code>
+            </pre>
+        </div>
+        <p>This program defines a class called <code>HelloWorld</code> with a <code>main</code> method, which is the entry point of any Java application. The <code>System.out.println</code> statement is used to print text to the console.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 WikiCode. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/code.js"></script>
+</body>
+
+</html>

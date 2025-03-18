@@ -1,0 +1,64 @@
+#languages .card {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#languages .card:hover {
+    transform: translateY(-10px);
+}
+
+#languages .card.bg-info {
+    background-color: #306998 !important; 
+    color: white !important;
+}
+
+#languages .card.bg-warning {
+    background-color: #f7df1e !important; 
+    color: black !important;
+}
+
+#languages .card.bg-danger {
+    background-color: #d40000 !important;
+    color: white !important;
+}
+
+#languages .card.bg-primary {
+    background-color: #00599c !important;
+    color: white !important;
+}
+
+/* Hover Effects */
+#languages .card.bg-info:hover {
+    background-color: #256D7B !important; 
+}
+
+#languages .card.bg-warning:hover {
+    background-color: #e5c900 !important;
+}
+
+#languages .card.bg-danger:hover {
+    background-color: #9b0000 !important; 
+}
+
+#languages .card.bg-primary:hover {
+    background-color: #004a77 !important;
+}
+
+
+
+#features .card {
+    background-color: #2c2c2c !important; 
+    color: #e0e0e0 !important;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#features .card:hover {
+    transform: translateY(-10px);
+    background-color: #383838 !important; 
+}
+

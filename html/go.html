@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/go.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>WikiCode - Go</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="indexlog.html">WikiCode</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="indexlog.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="indexlog.html#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="indexlog.html#languages">Languages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="logoutSuccess.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="features">
+        <img src="../img/Go_Logo_Blue.svg" alt="Go Logo" style="display: block; margin: 10px auto; width: 150px;">
+
+        <h2>What is Go?</h2>
+        <p style="color: white;">Go (or Golang) is an open-source programming language developed by Google. It is designed for simplicity, efficiency, and concurrency, making it ideal for backend development, cloud services, and networking applications.</p>
+        <br>
+        <div class="features-row">
+            <div class="feature-box">
+                <h3>Concurrent</h3>
+                <p>Go has built-in concurrency support with goroutines and channels, making it easy to develop highly concurrent applications.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Efficient and Fast</h3>
+                <p>Go compiles directly to machine code, making it faster than interpreted languages like Python and JavaScript.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Simple Syntax</h3>
+                <p>Go features a clean and minimalistic syntax, reducing complexity and improving readability.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="history">
+        <h2>History of Go</h2>
+        <p>Go was created by <strong>Robert Griesemer</strong>, <strong>Rob Pike</strong>, and <strong>Ken Thompson</strong> at Google in 2007. It was officially released in 2009 to provide an efficient alternative for large-scale software development.</p>
+        <p>With a strong focus on simplicity and performance, Go has gained popularity in cloud computing, microservices, and containerized applications.</p>
+    </section>
+    <hr>
+
+    <section id="uses">
+        <h2>Uses of Go</h2>
+        <p>Go is widely used in various domains due to its efficiency and reliability. Some of its key applications include:</p>
+        <div class="uses-row" id="uses-text">
+            <div class="uses-box">
+                <h3>Cloud Computing</h3>
+                <p>Go is a popular language for cloud-native applications and is widely used in Kubernetes and Docker.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Backend Development</h3>
+                <p>Go is often used for developing web APIs and backend services due to its speed and scalability.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Networking Tools</h3>
+                <p>Go's built-in concurrency makes it ideal for developing high-performance network applications.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Microservices</h3>
+                <p>Go is a popular choice for microservices due to its lightweight nature and efficiency.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Data Science</h3>
+                <p>Go is increasingly used in data science and machine learning for its speed and performance.</p>
+            </div>
+            <div class="uses-box">
+                <h3>Game Development</h3>
+                <p>Go is also used in game development, leveraging its high-performance capabilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-tutorial" class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <h2>Introduction to Go/Golang Video</h2>
+            <p>Watch this short introduction to learn more about Go/Golang in real-world applications:</p>
+            <div class="ratio ratio-16x9 mt-3">
+                <video controls class="img-fluid">
+                    <source src="../videos/go.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p class="mt-3 small text-muted">Video credit: <a href="https://www.youtube.com/watch?v=446E-r0rXHI" target="_blank" class="text-info">Fireship</a></p>
+        </div>
+    </section>
+
+    <section id="hello-world">
+        <h2>Go "Hello, World!" Syntax</h2>
+        <p>Here's a simple Go program that prints "Hello, World!" to the console:</p>
+        <div class="code-box">
+            <button class="button" onclick="copyCode()">Copy</button>
+            <pre>
+<code id="code">package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}</code>
+            </pre>
+        </div>
+        <p>This program defines a <code>main</code> package, imports the <code>fmt</code> package, and uses the <code>fmt.Println</code> function to print text to the console.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 WikiCode. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/code.js"></script>
+</body>
+
+</html>
